@@ -1,6 +1,6 @@
-# AGENTS.md -- Mod Switch
+# AGENTS.md -- Bulk Mod Control
 
-Source of truth is `D:\MTLiveMap\mt_loader\plugins\mod_switch.cpp`; copy changes here by hand.
+Source of truth is `D:\MTLiveMap\mt_loader\plugins\bulk_mod_control.cpp`; copy changes here by hand.
 
 - The buttons are copies of the list's own button class (`KeepDisabledButton`'s), added to the panel it sits in
   (`Slot.Parent`). Their label is written into `ButtonName` raw before they are added, then into the name text block
